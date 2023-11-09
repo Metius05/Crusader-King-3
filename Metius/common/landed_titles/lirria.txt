@@ -1,0 +1,61 @@
+﻿k_lirria = {
+		color = { 110 195 130}
+		color2 = { 255 255 255}
+		
+		capital = c_soroca
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:roman
+				}
+				add = @better_than_the_alternatives_score
+			}
+		}
+		d_soroca = {
+			color = { 100 160 70 }
+			color2 = { 255 255 255 }
+			
+			capital = c_soroca
+			c_soroca = {
+				color = { 80 120 80 }
+				color2 = { 255 255 255 }
+				
+				b_soroca = {
+					province = 5021
+
+					color = { 80 120 80 }
+					color2 = { 255 255 255 }
+				}
+				b_balti = {
+					province = 5022
+
+					color = { 100 160 70 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		d_orhei = {
+			color = { 100 160 70 }
+			color2 = { 255 255 255 }
+			
+			capital = c_orhei
+			c_orhei = {
+				color = { 172 149 58 }
+				color2 = { 255 255 255 }
+				
+				b_orhei = {
+					province = 5019
+
+					color = { 172 149 58 }
+					color2 = { 255 255 255 }
+				}
+				b_tuzara = {
+					province = 5020
+
+					color = { 172 149 58 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}

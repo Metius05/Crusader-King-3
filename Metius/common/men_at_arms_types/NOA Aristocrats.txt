@@ -1,0 +1,42 @@
+﻿# Special
+absolute_guard = {
+	type = house_guard
+	can_recruit = no
+	damage = 555
+	toughness = 555
+	pursuit = 555
+	screen = 555
+	
+	terrain_bonus = {
+		plains = { damage = 111 toughness = 111 pursuit = 111 screen = 111 }
+		drylands = { damage = 111 toughness = 111 pursuit = 111 screen = 111 }
+		desert = { damage = 111 toughness = 111 pursuit = 111 screen = 111 }
+		hills = { damage = 111 toughness = 111 pursuit = 111 screen = 111 }
+		mountains = { damage = 111 toughness = 111 pursuit = 111 screen = 111 }
+		desert_mountains = { damage = 111 toughness = 111 pursuit = 111 screen = 111 }
+		wetlands = { damage = 111 toughness = 111 pursuit = 111 screen = 111 }
+	}
+	
+	counters = {
+		archers = 6
+		skirmishers = 6
+		pikemen = 6
+		heavy_infantry = 6
+		light_cavalry = 6
+		heavy_cavalry = 6
+		house_guard = 6
+	}
+	
+	buy_cost = { gold = 666 }
+	low_maintenance_cost = { gold = 6 }
+	high_maintenance_cost = { gold = 12 }
+	
+	siege_tier = 5
+	siege_value = 2.66
+	
+	max_sub_regiments = 20
+	
+	stack = 5
+	ai_quality = { value = -10000 }
+	icon = house_guard
+}

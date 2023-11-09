@@ -1,0 +1,30 @@
+﻿80801633 = {
+	name = "Wholis"
+	dynasty = 80801622
+	religion = noa_pagan
+	culture = roman
+	
+	learning = 24
+	diplomacy = 3
+	intrigue = 3
+	martial = 3
+	stewardship = 3
+	prowess = 8
+	
+	trait = content
+	trait = brave
+	trait = honest
+		
+	trait = dhww
+	trait = education_learning_4
+	trait = physique_good_1
+	trait = shrewd
+	trait = albino
+	trait = lunatic
+	trait = blademaster_3
+	
+	839.1.1 = {
+		birth = yes
+	}
+	dna = wholis_dna
+}

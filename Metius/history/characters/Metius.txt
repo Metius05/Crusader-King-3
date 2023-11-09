@@ -1,0 +1,28 @@
+﻿80801622 = {
+	name = "Metius"
+	dynasty = 80801622
+	religion = noa_pagan
+	culture = roman
+	
+	learning = 5
+	diplomacy = 15
+	intrigue = 3
+	martial = 3
+	stewardship = 3
+	prowess = 15
+	
+	trait = lazy
+	trait = gregarious
+	trait = sadistic
+		
+	trait = absolute
+	
+	trait = physique_good_3
+	trait = intellect_good_1
+	trait = beauty_good_1
+	
+	817.1.1 = {
+		birth = yes
+	}
+	dna = 80801622_Metius
+}

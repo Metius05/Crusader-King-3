@@ -1,0 +1,42 @@
+# Special
+absolute_samurai = {
+	type = light_footmen
+	can_recruit = no
+	damage = 81
+	toughness = 310
+	pursuit = 100
+	screen = 100
+	
+	terrain_bonus = {
+		plains = { damage = 16 toughness = 16 pursuit = 16 screen = 16}
+		drylands = { damage = 16 toughness = 16 pursuit = 16 screen = 16}
+		desert = { damage = -16 toughness = -100 pursuit = -10 screen = 5 }
+		hills = { damage = 16 toughness = 16 pursuit = 16 screen = 16 }
+		mountains = { damage = 16 toughness = 16 pursuit = 16 screen = 16 }
+		desert_mountains = { damage = -16 toughness = -100 pursuit = -10 screen = 5 }
+		wetlands = { damage = 16 toughness = 16 pursuit = 16 screen = 16 }
+	}
+	
+	counters = {
+		archers = 3
+		skirmishers = 3
+		pikemen = 3
+		heavy_infantry = 3
+		light_cavalry = 3
+		heavy_cavalry = 3
+		house_guard = 3
+	}
+	
+	buy_cost = { gold = 250 }
+	low_maintenance_cost = { gold = 3 }
+	high_maintenance_cost = { gold = 5 }
+	
+	siege_tier = 3
+	siege_value = 0.7
+	
+	max_sub_regiments = 1
+	
+	stack = 47
+	ai_quality = { value = -10000 }
+	icon = light_footmen
+}

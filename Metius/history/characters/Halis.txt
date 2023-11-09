@@ -1,0 +1,29 @@
+﻿80801644 = {
+	name = "Halis"
+	dynasty = 80801622
+	religion = noa_pagan
+	culture = roman
+	female=yes
+	learning = 3
+	diplomacy = 3
+	intrigue = 27
+	martial = 3
+	stewardship = 3
+	prowess = 4
+	
+	trait = lustful
+	trait = deceitful
+	trait = arbitrary
+		
+	trait = dhww
+	trait = education_intrigue_4
+	trait = beauty_good_3
+	trait = reveler_3
+	trait = witch
+	trait = fecund
+	
+	845.1.1 = {
+		birth = yes
+	}
+	dna = halis_dna
+}

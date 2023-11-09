@@ -1,0 +1,24 @@
+﻿l_english:
+set_start:0 "To activate the build Start!"
+set_start_decision_tooltip:0 "Activate the starter kit!"
+set_start_decision_desc:0 "Give your character the life force of the origins! This option is one-time and is designed to adequately play the story of this character!"
+set_start_confirm:0 "Sign a contract"
+
+absolute_guard_knight:0 "Twelve elders"
+absolute_guard_knight_flavor:0 "The twelve elders are the guardians of Lirria, who have sworn allegiance only to Metius. The elders are the elite chosen by HIM to protect the order of his fellow men."
+
+set_casa_nostra_01:0 "Помочь горожанам"
+set_casa_nostra_01_decision_tooltip:0 "Прогуливаясь по городу вы встречаете незнакомца"
+set_casa_nostra_01_decision_desc:0 "Этому незнакомцу нужна помощь, но станете ли вы ему помогать?"
+set_casa_nostra_01_confirm:0 "Помочь незнакомцу"
+
+casa_nostra_01:0 "Забота о доме"
+casa_nostra_01_desc:0 "Оглянувшись вы поняли, что рядом находящийся человек нуждается в помощи и вы ему помогли"
+
+set_casa_nostra_02:0 "Помочь себе"
+set_casa_nostra_02_decision_tooltip:0 "Задуматься о будущем"
+set_casa_nostra_02_decision_desc:0 "Хмм... А что если я ... да точно! Я думаю, что пора пересмотреть мой распорядок дня!"
+set_casa_nostra_02_confirm:0 "Заняться личной жизнью"
+
+casa_nostra_02:0 "Забота о себе"
+casa_nostra_02_desc:0 "Уделив некоторое время, вы произвели инвестиции в нескольких бакалейных лавках"

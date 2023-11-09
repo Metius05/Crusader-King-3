@@ -1,0 +1,116 @@
+﻿l_english:
+bm_NOA_START:0 "Eden"
+ bm_NOA_START_desc:0 "Natives of the Secret Councils, members of the Orders of War, and avatars used by the gods for their secret games!#!"
+
+ bookmark_lirria_metius:0 "Lord of Eden-Metius"
+  bookmark_lirria_metius_desc:0 "The first man or god in the guise of a new avatar? the king that exclusively wants peace, but the world order and the will of the creator had other plans for him.\n\n#bold Can you lead a passive life with such power? this is your chance to prove it, or will you go the other way!?#!"
+ bookmark_dragon:0 "Drago Dragneel"
+  bookmark_dragon_desc:0 "Avatar of the god Ares!Conquering the world, the first thing that came to Ares's mind after coming to the mortal world, but meeting him...\n\n#bold Will Ares be able to destroy it and subdue this world? Or will your will bow its head before the lord?#!"
+ bookmark_halis:0 "Lunar Halis"
+  bookmark_halis_desc:0 "The fallen goddess of love, decided to return to Eden again and resume the former dream of winning the heart of the lord.\n\n#bold But will fate want to face her or will the world reject her secret wishes again?#!"
+ bookmark_wendi:0 "Wendi-small"
+  bookmark_wendi_desc:0 "A genius of the living world, a genius who broke into the circle of the rulers of Eden. small-called her circle, which greatly concerned her...i cared!\n\n#bold Prove to the circle that you are not just your height, prove that you can do everything and that you are not just called the Queen of Greed! i hope you will not present your dreams to the lord for the sake of life?#!"
+ bookmark_wholis:0 "Shadow Wholis"
+  bookmark_wholis_desc:0 "the privy council-ha ha ha! you finally got your hands on this lousy country and now you've been contacted from eden. Now your life will change, now you will be able to revive the dynasty of the kings of birds!\n\n#bold Entering the world of shadows, the only warning you received is don't touch the overlord! I hope I don't run into him!?#!"
+
+ dynn_libra:0 "from the original "
+  dynn_librarium:0 "Libra"
+
+trait_absolute:0 "Absolute"
+trait_absolute_desc:0 "This Ultimate Perk"
+
+trait_dhww:0 "Immortal"
+trait_dhww_desc:0 "Immortal"
+
+
+trait_awakening:0 "Awakening"
+trait_awakening_desc:0 "This Ultimate Perk - Awakening!"
+absolute_build:0 "Stasis"
+absolute_build_desc:0 "Enable - stasis for this character!"
+
+set_awakening_interaction:0 "Make Awakening"
+set_awakening_interaction_desc:0 "[recipient.GetShortUINameNoTooltip|U] will become #underline immortal #! with visual age locked at 25"
+set_mortal_interaction:0 "Remove the Awakening"
+set_mortal_interaction_desc:0 "[recipient.GetShortUINameNoTooltip|U] will loose Awakening. Maybe [recipient.GetSheHe] is just tired of this life?"
+
+set_absolute_stop_xp_interaction:0 "Freeze pumping"
+set_absolute_stop_xp_interaction_desc:0 "Stop the influx of experience for this character!"
+set_absolute_start_xp_interaction:0 "To activate the flow of experience"
+set_absolute_start_xp_interaction_desc:0 "Start accumulating experience for this character"
+
+
+set_absolute_on_interaction:0 "Make Absolute"
+set_absolute_on_interaction_desc:0 "[recipient.GetShortUINameNoTooltip|U] will become #underline Absolute #! "
+set_absolute_off_interaction:0 "Remove the Absolute"
+set_absolute_off_interaction_desc:0 "[recipient.GetShortUINameNoTooltip|U] will loose Absolute."
+
+absolute_lock_removal_decision:0 "Reset once-in-a-lifetime lockouts"
+absolute_lock_removal_decision_tooltip:0 "Reset lifetime lockouts - kingdom holy wars, kingdom invasions, kingdom subjugation, vassal contract renegotiation blocks, perk reset, perk events, create religion, change culture"
+absolute_lock_removal_decision_desc:0 "Are you ready to declare kingdom conquest wars and partake in other once in a lifetime activities once again?"
+absolute_lock_removal_decision_effect_tooltip:0 "You will be able to declare kingdom conquest wars and partake in other once in a lifetime activities once again."
+absolute_lock_removal_decision_confirm:0 "Start event to remove once-in-a-lifetime lockouts"
+
+absolute_lock_removal_interaction:0 "Reset Once-in-a-Lifetime Lockouts"
+absolute_lock_removal_interaction_tooltip:0 "Reset lifetime locks - kingdom invasions, kingdom subjugation, kingdom holy wars, perk reset, create faith, change culture, and vassal contract modification blocks."
+
+interaction_absolute_main:0 "Absolute"
+
+set_absolute_piety:0 "Alchemy"
+absolute_piety_decision_tooltip:0 "Perform a miracle!"
+absolute_piety_decision_desc:0 "Alchemy - the science of creation"
+set_absolute_piety_confirm:0 "Flip a coin"
+
+set_absolute_build:0 "The Ascension!"
+absolute_build_decision_tooltip:0 "Install true build"
+set_absolute_build_decision_desc:0 "Give your character the life force of the origins! Attention, after ascension, the character does not get experience!"
+set_absolute_build_confirm:0 "Sign a contract"
+
+absolute_guard:0 "NOA Aristocrats"
+absolute_guard_flavor:0 "Aristocrats of the Noa clan are creatures created to exterminate enemies!"
+absolute_samurai:0 "NOA Samurai"
+absolute_samurai_flavor:0 "NOA Samurai - red battalion, a special unit for cleaning up enemy soldiers!"
+
+spawn_guard_trigger:0 "Contact the Noa clan"
+spawn_guard_trigger_desc:0 "NOA - an ancient race that exists for the sake of battle and they obey only HIM - he is Metius!"
+spawn_guard_trigger_confirm:0 "NOA, General fee!"
+
+spawn_army_trigger:0 "Royal guard"
+spawn_army_trigger_desc:0 "Metius - uses the magic(divine power) of the distorted world to summon the horsemen of war!"
+spawn_army_trigger_confirm_text:0 "Open the gate!"
+
+#-----------------------------
+set_dragon:0 "Охота за сокровищами"
+set_dragon_decision_tooltip:0 "Посетить подземелье"
+set_dragon_decision_desc:0 "В мире было обнаруженно подземелье, оно требует наблюдейний! Несколько дней назад было на рынке прошел слушок о многочисленных пострадавших солдатах... хм! Видимо мой Маршал таит от меня, какой то секрет - это нужно исследовать! Спустя пару дней ваших скитаний по закаулкам замкам и слежкам вы обнаружили, что ваш маршал зачастил посещять город. В очередной раз, проследив за ним он наконец то допустил ошибку, или вам улыбнулась удача? Вы обнаружили странную пещеру!"
+set_dragon_confirm:0 "Спустится в пещеру"
+
+set_blood_katana:0 "Созидание и подчинение"
+set_blood_katana_decision_tooltip:0 "Воссоздать первый клинок"
+set_blood_katana_decision_desc:0 "После битвы с драконом вы поняли, что в этом мире без ваших первородных артефактах не безопастно, поэтому вы решили воссоздать первое орудие войны. Клинок способный даровать победу, в обмен на страх, которым он питается!"
+set_blood_katana_confirm:0 "Услышь мой зов - Кровавая катана"
+
+set_apokrif_book:0 "В поисках знаний"
+set_apokrif_book_decision_tooltip:0 "Подумать о будущем"
+set_apokrif_book_decision_desc:0 "Воссоздав первый клинок, вам нужно обогатить ваш багаж знаний, но кроме вашего старого друга Мориана Зеноса подскажемт вам с чего начать. Мориан Зенас, мой первый друг, был величайшим магом, которого только знал этот мир. Metius - снова воспользуется своей внутренней силой и вернется в прошлое ради встречи с другом! ... Спустя два часа, Metius вернулся в новый свет и обрел те знания, которыех ему нехватало, теперь он знает что лучшим решение будет посящение мира знаний. Место - которого нет, место - где обитает владыка знаний! Хермеус мора - правитель мира знаний!"
+set_apokrif_book_confirm:0 "Посетить дом Хермеуса Моры"
+
+set_2_cube:0 "Воссоединиться с первым Сыном"
+set_2_cube_decision_tooltip:0 "Обратиться к тьме своей гинетики"
+set_2_cube_decision_desc:0 "Первый сын - Metius был ... зло, тьма, хаос! Создание чьё имя нельзя называть, создание чья мощь незнает границ, создание чьё влияние близко к богу, но созданье что боится своего отца, больше бога!"
+set_2_cube_confirm:0 "Воскресить сына, слугу, ... пробудить хаос!"
+
+dragon:0 "Дракон"
+dragon_desc:0 "Пожиратель миров - Дракон! Творение навевающее ужас в сердцах смертных созданий, но действительно ли оно так страшно?"
+dragon_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] подчинили злое создание, что таилось в подземелье и теперь вместе с вашим новым соратником, мы навеям страх на этот мир!!"
+
+blood_katana:0 "Кровавая катана"
+blood_katana_desc:0 "Меч кровавой воли - имя полученно от люда, что обозрели вид войны, начало стаха! Клинок способных даровать жизнь, в замен чужих страданий. Первое дитя войны - первое орудие."
+blood_katana_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] обладаете клинком, что положил начало человеческих расприй и послужил родителем мести!"
+
+apokrif_book:0 "Книга Апокрифа"
+apokrif_book_desc:0 "Апокриф - легендарный план Даэдрического Принца Хермеуса Моры. Представляет собой гигантскую библиотеку, где хранятся все знания обо всём. Знания Апокрифа являются опасными для смертного разума."
+apokrif_book_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] и Мориан Зенас первыми узнали, что находится в огромной библиотеке — во все стороны уходили бесконечные полки, уставленные книгами. Невидимый ветер колыхал их страницы. Каждая книга была в чёрном переплёте, и ни одна из них не имела названия. Он не видел ни единой души, но чувствовал, как призраки бродят среди полок и листают книги, разыскивая что-то, ведомое лишь им одним. Это был Апокриф, дом Хермеуса Моры, где можно обрести любое запретное знание."
+
+2_cube:0 "Джарви"
+2_cube_desc:0 "Сын, что славит своего отца больше бога. Теневой Король - имя ему $cube$! Создание которое обратит всё в прах, если на то воля его отца, творение что созданно для уничтожения."
+2_cube_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] соединили все свои достояния и вернули былую мощь, теперь ничто в этом мире, не посмеет встать у вас на пути!"

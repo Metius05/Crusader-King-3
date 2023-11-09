@@ -1,0 +1,85 @@
+﻿l_english:
+#Soroca
+building_type_soroca_01:0 "Millenium"
+building_type_soroca_01_desc:0 "#F The Millennium is the property of a power that is required for the ascension of heavenly kings.#!"
+building_soroca_01:0 "$building_type_soroca_01$"
+building_soroca_01_desc:0 "$building_type_soroca_01_desc$"
+building_type_soroca_02:0 "$building_type_soroca_01$"
+building_type_soroca_02_desc:0 "$building_type_soroca_01_desc$"
+building_soroca_02:0 "$building_type_soroca_01$"
+building_soroca_02_desc:0 "$building_type_soroca_01_desc$"
+building_type_soroca_03:0 "$building_type_soroca_01$"
+building_type_soroca_03_desc:0 "$building_type_soroca_01_desc$"
+building_soroca_03:0 "$building_type_soroca_01$"
+building_soroca_03_desc:0 "$building_type_soroca_01_desc$"
+building_type_soroca_04:0 "$building_type_soroca_01$"
+building_type_soroca_04_desc:0 "$building_type_soroca_01_desc$"
+building_soroca_04:0 "$building_type_soroca_01$"
+building_soroca_04_desc:0 "$building_type_soroca_01_desc$"
+#Balti
+building_type_balti_01:0 "Catacombs"
+building_type_balti_01_desc:0 "#F The dungeon of the world of monsters, a place where the dark entities of the world of people live, including: goblins, kobolds, orcs, dark riders, fairies, genies and the essence of evil - the dragon.#!"
+building_balti_01:0 "$building_type_balti_01$"
+building_balti_01_desc:0 "$building_type_balti_01_desc$"
+building_type_balti_02:0 "$building_type_balti_01$"
+building_type_balti_02_desc:0 "$building_type_balti_01$"
+building_balti_02:0 "$building_type_balti_01$"
+building_balti_02_desc:0 "$building_type_balti_01_desc$"
+building_type_balti_03:0 "$building_type_balti_01$"
+building_type_balti_03_desc:0 "$building_type_balti_01$"
+building_balti_03:0 "$building_type_balti_01$"
+building_balti_03_desc:0 "$building_type_balti_01_desc$"
+building_type_balti_04:0 "$building_type_balti_01$"
+building_type_balti_04_desc:0 "$building_type_balti_01$"
+building_balti_04:0 "$building_type_balti_01$"
+building_balti_04_desc:0 "$building_type_balti_01_desc$"
+#Orhei
+building_type_orhei_01:0 "Tower"
+building_type_orhei_01_desc:0 "#F A Council of twelve elders, monitors each new spirit and worships the great one, Metius. A new force, the new Testament! - rule of the world of life.#!"
+building_orhei_01:0 "$building_type_orhei_01$"
+building_orhei_01_desc:0 "$building_type_orhei_01_desc$"
+building_type_orhei_02:0 "$building_type_orhei_01$"
+building_type_orhei_02_desc:0 "$building_type_orhei_01_desc$"
+building_orhei_02:0 "$building_type_orhei_01$"
+building_orhei_02_desc:0 "$building_type_orhei_01_desc$"
+building_type_orhei_03:0 "$building_type_orhei_01$"
+building_type_orhei_03_desc:0 "$building_type_orhei_01_desc$"
+building_orhei_03:0 "$building_type_orhei_01$"
+building_orhei_03_desc:0 "$building_type_orhei_01_desc$"
+building_type_orhei_04:0 "$building_type_orhei_01$"
+building_type_orhei_04_desc:0 "$building_type_orhei_01_desc$"
+building_orhei_04:0 "$building_type_orhei_01$"
+building_orhei_04_desc:0 "$building_type_orhei_01_desc$"
+#Tuzara
+building_type_tuzara_01:0 "Closed market"
+building_type_tuzara_01_desc:0 "#F Auction house - Closed Market - created by the king of the dark world. Under the patronage of the blacksmith God, a new world order and economic system flourishes.#!"
+building_tuzara_01:0 "$building_type_tuzara_01$"
+building_tuzara_01_desc:0 "$building_type_tuzara_01_desc$"
+building_type_tuzara_02:0 "$building_type_tuzara_01$"
+building_type_tuzara_02_desc:0 "$building_type_tuzara_01_desc$"
+building_tuzara_02:0 "$building_type_tuzara_01$"
+building_tuzara_02_desc:0 "$building_type_tuzara_01_desc$"
+building_type_tuzara_03:0 "$building_type_tuzara_01$"
+building_type_tuzara_03_desc:0 "$building_type_tuzara_01_desc$"
+building_tuzara_03:0 "$building_type_tuzara_01$"
+building_tuzara_03_desc:0 "$building_type_tuzara_01_desc$"
+building_type_tuzara_04:0 "$building_type_tuzara_01$"
+building_type_tuzara_04_desc:0 "$building_type_tuzara_01_desc$"
+building_tuzara_04:0 "$building_type_tuzara_01$"
+building_tuzara_04_desc:0 "$building_type_tuzara_01_desc$"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

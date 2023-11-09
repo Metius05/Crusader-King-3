@@ -1,0 +1,202 @@
+﻿
+### Legacy - culture_noa perks
+
+
+	culture_noa_1_perk = {
+	lifestyle = noa_lifestyle
+	tree = culture_noa
+	position = { 0 0 }
+	icon = node_noa
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+		character_modifier = {
+		cultural_head_fascination_mult = 0.1
+	}
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = cultural_propaganda_perk_effect
+		}
+	}
+	
+	}
+	
+	culture_noa_2_perk = {
+	lifestyle = noa_lifestyle
+	tree = culture_noa
+	position = { 0 1 }
+	icon = node_noa
+	
+	parent = culture_noa_1_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+
+		character_modifier = {
+		cultural_head_fascination_mult = 0.1
+	}
+	
+		effect = {
+		custom_description_no_bullet = {
+			text = cultural_expansion_perk_effect
+		}
+	}
+	
+	}
+	
+	culture_noa_3_perk = {
+	lifestyle = noa_lifestyle
+	tree = culture_noa
+	position = { 0 2 }
+	icon = node_noa
+	
+	parent = culture_noa_2_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+
+		character_modifier = {
+		title_creation_cost_mult = -0.3
+		cultural_head_fascination_mult = 0.1
+	}
+	
+	}
+	
+	culture_noa_4_perk = {
+	lifestyle = noa_lifestyle
+	tree = culture_noa
+	position = { 2 0 }
+	icon = node_noa
+	
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	character_modifier = {
+	county_opinion_add = 5
+	monthly_county_control_change_add = 0.5
+	}
+	
+	}
+	
+	culture_noa_5_perk = {
+	lifestyle = noa_lifestyle
+	tree = culture_noa
+	position = { 2 1 }
+	icon = node_noa
+	
+	parent = culture_noa_4_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+
+	character_modifier = {
+	powerful_vassal_opinion = 5
+	character_capital_county_monthly_development_growth_add = 0.5	
+	}
+	
+	}
+	
+	culture_noa_6_perk = {
+	lifestyle = noa_lifestyle
+	tree = culture_noa
+	position = { 2 2 }
+	icon = node_noa
+	
+	parent = culture_noa_5_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	character_modifier = {
+	mercenary_hire_cost_mult = -0.2
+	different_culture_noa_opinion = 5	
+	}
+	
+	}
+	
+	culture_noa_7_perk = {
+	lifestyle = noa_lifestyle
+	tree = culture_noa
+	position = { 1 3 }
+	icon = node_noa
+	
+	parent = culture_noa_3_perk
+	parent = culture_noa_6_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+
+	character_modifier = {
+	realm_priest_opinion = 5
+	}
+		effect = {
+		custom_description_no_bullet = {
+			text = heavenly_touched_perk_effect
+		}
+	}
+	
+	
+	}
+	
+	culture_noa_8_perk = {
+	lifestyle = noa_lifestyle
+	tree = culture_noa
+	position = { 1 4 }
+	icon = node_noa
+	
+	parent = culture_noa_7_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+
+	character_modifier = {
+	councillor_opinion = 5
+	liege_opinion = 5
+	}
+	
+	}
+	
+	culture_noa_9_perk = {
+	lifestyle = noa_lifestyle
+	tree = culture_noa
+	position = { 1 5 }
+	icon = trait_innovator_noa
+	
+	parent = culture_noa_8_perk
+	
+	auto_selection_weight = {
+		value = 11
+		
+	}
+	
+	effect = {
+     add_trait = innovator_noa
+	 add_character_flag = culture_nostra
+	 custom_description_no_bullet = {
+			text = innovator_perk_effect
+		}
+	 }
+	
+
+	
+	
+	

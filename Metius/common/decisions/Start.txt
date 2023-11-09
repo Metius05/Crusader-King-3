@@ -1,0 +1,337 @@
+set_start = {
+	picture = "gfx/interface/illustrations/decisions/absolute.dds"
+
+	desc = set_start_decision_desc
+	selection_tooltip = set_start_decision_tooltip
+
+	is_shown = {
+		faith = faith:noa_pagan
+		
+		has_trait = absolute
+		
+		has_culture = culture:roman
+		
+		is_ruler = yes
+		NOT = {
+			has_character_flag = Startbuild
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	
+	cost = {
+	}
+	
+	effect = {
+		#remove_flag = blocks_achievements
+		add_character_flag = Startbuild
+		add_gold = 500
+		add_prestige = 500
+		add_piety = 1000
+		add_character_modifier = absolute_build
+		add_trait = depressed_1
+		add_character_flag = tet1622
+		set_immortal_age = 25
+		spawn_army= {
+			uses_supply = no
+			inheritable = no
+			name = absolute_guard_knight
+			location = capital_province
+			levies=0
+			men_at_arms={
+				type= absolute_guard_knight
+				men=12
+			}
+		}
+	}
+	ai_check_interval = 10
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#Dragon
+set_dragon = {
+	picture = "gfx/interface/illustrations/decisions/absolute.dds"
+
+	desc = set_dragon_decision_desc
+	selection_tooltip = set_dragon_decision_tooltip
+
+	is_shown = {
+		faith = faith:noa_pagan
+		
+		has_trait = absolute
+		
+		has_culture = culture:roman
+		has_character_flag = Startbuild
+		has_character_flag = elder_lord
+		has_trait = elder_noa
+		has_character_modifier = absolute_build
+		
+		is_ruler = yes
+		NOT = {
+			has_character_flag = dragon
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	
+	cost = {
+		prestige = 5000
+		piety = 5000
+	}
+	
+	effect = {
+		add_character_modifier = dragon
+		add_character_flag = dragon
+	}
+	ai_check_interval = 10
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#Blood katana
+set_blood_katana = {
+	picture = "gfx/interface/illustrations/decisions/absolute.dds"
+
+	desc = set_blood_katana_decision_desc
+	selection_tooltip = set_blood_katana_decision_tooltip
+
+	is_shown = {
+		faith = faith:noa_pagan
+		
+		has_trait = absolute
+		
+		has_culture = culture:roman
+		has_character_flag = Startbuild
+		has_character_modifier = absolute_build
+		has_character_modifier = dragon
+		has_character_flag = dragon
+		has_character_flag = elder_lord
+		has_trait = elder_noa
+		is_ruler = yes
+		NOT = {
+			has_character_flag = blood_katana
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	
+	cost = {
+		prestige = 7500
+		piety = 7500
+	}
+	
+	effect = {
+		add_character_modifier = blood_katana
+		add_character_flag = blood_katana
+	}
+	ai_check_interval = 10
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#Apokrif book
+set_apokrif_book = {
+	picture = "gfx/interface/illustrations/decisions/absolute.dds"
+
+	desc = set_apokrif_book_decision_desc
+	selection_tooltip = set_apokrif_book_decision_tooltip
+
+	is_shown = {
+		faith = faith:noa_pagan
+		
+		has_trait = absolute
+		
+		has_culture = culture:roman
+		has_character_flag = Startbuild
+		has_character_modifier = absolute_build
+		has_character_modifier = dragon
+		has_character_flag = dragon
+		has_character_modifier = blood_katana
+		has_character_flag = blood_katana
+		has_character_flag = elder_lord
+		has_trait = elder_noa
+		is_ruler = yes
+		NOT = {
+			has_character_flag = apokrif_book
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	
+	cost = {
+		prestige = 10000
+		piety = 10000
+	}
+	
+	effect = {
+		add_character_modifier = apokrif_book
+		add_character_flag = apokrif_book
+	}
+	ai_check_interval = 10
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#Cube
+set_2_cube = {
+	picture = "gfx/interface/illustrations/decisions/absolute.dds"
+
+	desc = set_2_cube_decision_desc
+	selection_tooltip = set_2_cube_decision_tooltip
+
+	is_shown = {
+		faith = faith:noa_pagan
+		
+		has_trait = absolute
+		
+		has_culture = culture:roman
+		has_character_flag = Startbuild
+		has_character_modifier = absolute_build
+		has_character_modifier = dragon
+		has_character_flag = dragon
+		has_character_modifier = blood_katana
+		has_character_flag = blood_katana
+		has_character_modifier = apokrif_book
+		has_character_flag = apokrif_book
+		has_character_flag = elder_lord
+		has_trait = elder_noa
+		is_ruler = yes
+		NOT = {
+			add_character_flag = 2_cube
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	
+	cost = {
+		prestige = 15000
+		piety = 15000
+	}
+	
+	effect = {
+		remove_character_modifier = dragon
+		remove_character_modifier = blood_katana
+		remove_character_modifier = apokrif_book
+		add_character_modifier = 2_cube
+		add_character_flag = 2_cube
+	}
+	ai_check_interval = 10
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#Casa_nostra_01
+set_casa_nostra_01 = {
+	picture = "gfx/interface/illustrations/decisions/absolute.dds"
+
+	desc = set_casa_nostra_01_decision_desc
+	selection_tooltip = set_casa_nostra_01_decision_tooltip
+
+	is_shown = {
+		faith = faith:noa_pagan
+		
+		has_culture = culture:roman
+		has_character_flag = Startbuild
+		has_character_modifier = absolute_build
+		has_character_flag = culture_nostra
+		has_trait = innovator_noa
+		is_ruler = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	
+	cost = {
+		prestige = 7500
+		piety = 7500
+	}
+	
+	effect = {
+		add_character_modifier = casa_nostra_01
+	}
+	ai_check_interval = 150
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+set_casa_nostra_02 = {
+	picture = "gfx/interface/illustrations/decisions/absolute.dds"
+
+	desc = set_casa_nostra_02_decision_desc
+	selection_tooltip = set_casa_nostra_02_decision_tooltip
+
+	is_shown = {
+		faith = faith:noa_pagan
+		
+		has_culture = culture:roman
+		has_character_flag = Startbuild
+		has_character_modifier = absolute_build
+		has_character_flag = pureblood_nostra
+		has_trait = pureblood_noa
+		is_ruler = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	
+	cost = {
+		prestige = 7500
+		piety = 7500
+	}
+	
+	effect = {
+		add_character_modifier = casa_nostra_02
+	}
+	ai_check_interval = 150
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}

@@ -1,0 +1,30 @@
+﻿80801611 = {
+	name = "Wendi"
+	dynasty = 80801622
+	religion = noa_pagan
+	culture = roman
+	female=yes
+	learning = 3
+	diplomacy = 3
+	intrigue = 3
+	martial = 3
+	stewardship = 22
+	prowess = 10
+	
+	trait = greedy
+	trait = temperate
+	trait = craven
+		
+	trait = dhww
+	trait = education_stewardship_4
+	trait = intellect_good_3
+	trait = dwarf
+	trait = weak
+	trait = reclusive
+	trait = journaller
+	
+	851.1.1 = {
+		birth = yes
+	}
+	dna = 80801611_wendi
+}

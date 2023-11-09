@@ -1,0 +1,249 @@
+﻿set_absolute_piety = {
+	picture = "gfx/interface/illustrations/decisions/absolute.dds"
+
+	desc = absolute_piety_decision_desc
+	selection_tooltip = absolute_piety_decision_tooltip
+
+	is_shown = {
+		#has_trait = humble
+		#has_trait = sadistic
+		#has_trait = gregarious
+		
+		#has_trait = physique_good_3
+		#has_trait = intellect_good_3
+		#has_trait = beauty_good_3
+		
+		has_trait = absolute
+		has_character_modifier = awakening
+		
+		has_character_flag = tet1622
+		
+		has_culture = culture:roman
+		
+		is_ruler = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	
+	cost = {
+		gold = 1
+		prestige = 999
+	}
+	
+	effect = {
+		#add_dynasty_prestige= 500
+		add_piety = 1000
+	}
+
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+	ai_check_interval = 0
+}
+#set_absolute_off = {
+#	picture = "gfx/interface/illustrations/decisions/absolute.dds"
+
+#	desc = hire_physician_decision_desc
+#	selection_tooltip = hire_physician_decision_tooltip
+
+#	is_shown = {
+#		has_trait = humble
+#		has_trait = sadistic
+#		has_trait = gregarious
+#		
+#		has_trait = physique_good_3
+#		has_trait = intellect_good_3
+#		has_trait = beauty_good_3
+		
+#		has_culture = culture:roman
+#		is_ruler = yes
+#		NOT = {
+#				has_trait = absolute
+#			}
+#	}
+
+#	is_valid_showing_failures_only = {
+#		is_available_adult_or_is_commanding = yes
+#	}
+	
+#	effect = {
+#		add_trait = absolute
+#	}
+
+#	ai_potential = {
+#		always = no
+#	}
+
+#	ai_will_do = {
+#		base = 0
+#	}
+#	ai_check_interval = 0
+#}
+#set_absolute_on = {
+#	picture = "gfx/interface/illustrations/decisions/absolute.dds"
+#
+#	desc = hire_physician_decision_desc
+#	selection_tooltip = hire_physician_decision_tooltip
+#
+#	is_shown = {
+#		has_trait = humble
+#		has_trait = sadistic
+#		has_trait = gregarious
+		
+#		has_trait = physique_good_3
+#		has_trait = intellect_good_3
+#		has_trait = beauty_good_3
+#		
+#		has_culture = culture:roman
+#		is_ruler = yes
+#		NOT = {
+#				has_trait = absolute
+#			}
+#	}
+
+#	is_valid_showing_failures_only = {
+#		is_available_adult_or_is_commanding = yes
+#	}
+	
+#	effect = {
+#		add_trait = absolute
+#	}
+
+#	ai_potential = {
+#		always = no
+#	}
+
+#	ai_will_do = {
+#		base = 0
+#	}
+#	ai_check_interval = 0
+#}
+spawn_army_trigger={
+	picture = "gfx/interface/illustrations/decisions/absolute.dds"
+	title= spawn_army_trigger
+	desc= spawn_army_trigger_desc
+	confirm_text= spawn_army_trigger_confirm_text
+	ai_check_frequency = 0
+	ai_goal = no
+	ai_will_do =0
+	is_shown = {
+		#has_trait = humble
+		#has_trait = sadistic
+		#has_trait = gregarious
+		
+		#has_trait = physique_good_3
+		#has_trait = intellect_good_3
+		#has_trait = beauty_good_3
+		
+		has_character_flag = tet1622
+		
+		has_trait = absolute
+		#has_character_modifier = awakening
+		
+		#has_culture = culture:roman
+		
+		is_ruler = yes
+	}
+	cost = {
+		piety = 2000
+	}
+	effect={
+		trigger_event=absolute_pet.0001
+	}
+}
+spawn_guard_trigger={
+	picture = "gfx/interface/illustrations/decisions/absolute.dds"
+	title= spawn_guard_trigger
+	desc= spawn_guard_trigger_desc
+	confirm_text= spawn_guard_trigger_confirm_text
+	ai_check_frequency = 0
+	ai_goal = no
+	ai_will_do =0
+	is_shown = {
+		#has_trait = humble
+		#has_trait = sadistic
+		#has_trait = gregarious
+		
+		#has_trait = physique_good_3
+		#has_trait = intellect_good_3
+		#has_trait = beauty_good_3
+		
+		has_character_flag = tet1622
+		
+		has_trait = absolute
+		has_character_modifier = awakening
+		
+		has_culture = culture:roman
+		
+		is_ruler = yes
+	}
+	cost = {
+		piety = 10000
+	}
+	effect={
+		trigger_event=absolute_guard.0001
+	}
+}
+#set_absolute_build = {
+#	picture = "gfx/interface/illustrations/decisions/absolute.dds"
+
+#	desc = absolute_build_decision_desc
+#	selection_tooltip = absolute_build_decision_tooltip
+
+#	is_shown = {
+		#has_trait = humble
+#		has_trait = sadistic
+#		has_trait = gregarious
+		
+		#has_trait = physique_good_3
+		#has_trait = intellect_good_3
+		#has_trait = beauty_good_3
+		
+#		has_trait = absolute
+#		has_character_modifier = awakening
+		
+#		has_character_flag = tet1622
+		
+#		has_culture = culture:roman
+		
+#		is_ruler = yes
+#		NOT = {
+#			has_trait = august
+#			has_trait = gallant
+#			has_trait = avaricious
+#			has_trait = torturer
+#			has_trait = theologian
+#			has_trait = holy_monarch
+#			has_character_modifier = absolute_build
+#		}
+#	}
+#
+#	is_valid_showing_failures_only = {
+#		is_available_adult_or_is_commanding = yes
+#	}
+#	
+#	effect = {
+#		add_character_modifier = absolute_build
+#		add_trait = august
+#		add_trait = gallant
+#		add_trait = avaricious
+#		add_trait = torturer
+#		add_trait = theologian
+#		add_trait = holy_monarch
+#	}
+#
+#	ai_potential = {
+#		always = no
+#	}
+#
+#	ai_will_do = {
+#		base = 0
+#	}
+#	ai_check_interval = 0
+#}

@@ -1,0 +1,228 @@
+﻿set_absolute_off_interaction = {
+	category = interaction_absolute_main
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	ai_will_do = 0
+	desc = set_absolute_off_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			#has_trait = humble
+			#has_trait = sadistic
+			#has_trait = gregarious
+			
+			has_character_flag = tet1622
+			
+			#has_trait = physique_good_3
+			#has_trait = intellect_good_3
+			#has_trait = beauty_good_3
+			has_character_flag = tet
+			has_trait = absolute	
+			NOT = {
+				
+				has_character_modifier = awakening
+			}			
+		}
+	
+	}
+	on_accept = {
+		scope:recipient = {
+			remove_trait = absolute	
+			has_character_flag = tet			
+		}
+	}
+	
+	auto_accept = yes
+}
+set_awakening_interaction = {
+	category = interaction_absolute_main
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	ai_will_do = 0
+	desc = set_awakening_interaction_desc
+	
+	is_shown = {
+		scope:actor = {
+			#has_trait = humble
+			#has_trait = sadistic
+			#has_trait = gregarious
+			
+			#has_trait = physique_good_3
+			#has_trait = intellect_good_3
+			#has_trait = beauty_good_3
+			has_character_flag = tet1622
+			has_trait = absolute
+			NOT = {
+				has_character_modifier = awakening
+			}
+		}
+	
+	}
+	on_accept = {
+		scope:recipient = {
+			add_character_modifier = awakening
+			add_trait = disfigured
+		}
+	}
+	
+	auto_accept = yes
+}
+
+set_mortal_interaction = {
+	category = interaction_absolute_main
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	ai_will_do = 0
+	desc = set_mortal_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			#has_trait = humble
+			#has_trait = sadistic
+			#has_trait = gregarious
+			
+			has_character_flag = tet1622
+			
+			#has_trait = physique_good_3
+			#has_trait = intellect_good_3
+			#has_trait = beauty_good_3
+			
+			has_trait = absolute
+			has_character_modifier = awakening		
+		}
+	
+	}
+	on_accept = {
+		scope:recipient = {
+			remove_character_modifier = awakening
+			remove_trait = disfigured			
+		}
+	}
+	
+	auto_accept = yes
+}
+absolute_lock_removal_interaction = {
+	category = interaction_absolute_main
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	auto_accept = yes
+	ai_will_do = 0
+
+	is_shown = {
+		scope:actor = {
+			#has_trait = humble
+			#has_trait = sadistic
+			#has_trait = gregarious
+			
+			has_character_flag = tet1622
+			
+			#has_trait = physique_good_3
+			#has_trait = intellect_good_3
+			#has_trait = beauty_good_3
+			
+			has_trait = absolute
+			has_character_modifier = awakening
+		}
+	}
+
+	is_valid = {
+		scope:recipient = {
+			is_lifetime_lock_removal_needed = yes
+		}
+	}
+
+	on_send = {
+		scope:recipient = {
+			save_scope_as = scope_set_age
+		}
+	}
+
+	on_accept = {
+		scope:actor = {
+			trigger_event = absolute_lifetime_lock_removal.1
+		}
+	}
+}
+
+set_absolute_on_interaction = {
+	category = interaction_absolute_main
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	ai_will_do = 0
+	desc = set_absolute_on_interaction_desc
+	
+	is_shown = {
+		scope:actor = {
+			#has_trait = humble
+			#has_trait = sadistic
+			#has_trait = gregarious
+			
+			has_character_flag = tet1622
+			
+			#has_trait = physique_good_3
+			#has_trait = intellect_good_1
+			#has_trait = beauty_good_1
+			
+			NOT = {
+				has_trait = absolute
+			}
+		}
+	}
+	on_accept = {
+		scope:recipient = {
+			add_trait = absolute
+		}
+		
+	}
+	auto_accept = yes
+}
+set_absolute_stop_xp_interaction = {
+	category = interaction_absolute_main
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	auto_accept = yes
+	ai_will_do = 0
+
+	is_shown = {
+		scope:actor = {
+			has_character_flag = tet1622
+			has_trait = absolute
+			NOT = {
+				has_character_modifier = absolute_build
+			}
+		}
+	}
+
+	on_accept = {
+		scope:recipient = {
+			add_character_modifier = absolute_build
+		}
+	}
+}
+set_absolute_start_xp_interaction = {
+	category = interaction_absolute_main
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	auto_accept = yes
+	ai_will_do = 0
+
+	is_shown = {
+		scope:actor = {
+			has_trait = absolute
+			has_character_modifier = absolute_build
+		}
+	}
+
+	on_accept = {
+		scope:recipient = {
+			remove_character_modifier = absolute_build
+		}
+	}
+}

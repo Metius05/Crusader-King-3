@@ -1,0 +1,11 @@
+﻿l_russian:
+ absolute_lifetime_lock_removal.1.t:0 "Какую однократную блокировку я хочу сбросить?"
+ absolute_lifetime_lock_removal.1.desc:0 "Быть бессмертным не означает, что я ограничен в том, чтобы делать это один раз в жизни ..."
+ absolute_lifetime_lock_removal.1.option.w1:0 "Вторжение в королевство."
+ absolute_lifetime_lock_removal.1.option.w2:0 "Покорение королевства."
+ absolute_lifetime_lock_removal.1.option.w3:0 "Царство священной войны."
+ absolute_lifetime_lock_removal.1.option.f:0 "Создайте новую веру."
+ absolute_lifetime_lock_removal.1.option.c:0 "Переходите в другую культуру."
+ absolute_lifetime_lock_removal.1.option.p:0 "Сбросьте льготы образа жизни."
+ absolute_lifetime_lock_removal.1.option.v:0 "Изменить вассальные контракты."
+ absolute_lifetime_lock_removal.1.option.d:0 "Сделано с сбросом блокировки, который бывает раз в жизни."

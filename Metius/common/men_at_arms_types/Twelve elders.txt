@@ -1,0 +1,42 @@
+# Special
+absolute_guard_knight = {
+	type = house_guard
+	can_recruit = no
+	damage = 8888
+	toughness = 8888
+	pursuit = 8888
+	screen = 8888
+	
+	terrain_bonus = {
+		plains = { damage = 1111 toughness = 1111 pursuit = 1111 screen = 1111 }
+		drylands = { damage = 1111 toughness = 1111 pursuit = 1111 screen = 1111 }
+		desert = { damage = 1111 toughness = 1111 pursuit = 1111 screen = 1111 }
+		hills = { damage = 1111 toughness = 1111 pursuit = 1111 screen = 1111 }
+		mountains = { damage = 1111 toughness = 1111 pursuit = 1111 screen = 1111 }
+		desert_mountains = { damage = 1111 toughness = 1111 pursuit = 1111 screen = 1111 }
+		wetlands = { damage = 1111 toughness = 1111 pursuit = 1111 screen = 1111 }
+	}
+	
+	counters = {
+		archers = 12
+		skirmishers = 12
+		pikemen = 12
+		heavy_infantry = 12
+		light_cavalry = 12
+		heavy_cavalry = 12
+		house_guard = 12
+	}
+	
+	buy_cost = { gold = 1 }
+	low_maintenance_cost = { gold = 1 }
+	high_maintenance_cost = { gold = 1 }
+	
+	siege_tier = 5
+	siege_value = 5
+	
+	max_sub_regiments = 12
+	
+	stack = 1
+	ai_quality = { value = -10000 }
+	icon = house_guard
+}

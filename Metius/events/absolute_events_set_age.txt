@@ -1,0 +1,172 @@
+namespace = absolute_lifetime_lock_removal
+
+absolute_lifetime_lock_removal.1 = {
+	type = character_event
+	title = absolute_lifetime_lock_removal.1.t
+	desc = absolute_lifetime_lock_removal.1.desc
+
+	theme = realm
+
+	left_portrait = {
+		character = scope:scope_set_age
+		animation = personality_honorable
+	}
+	#*=*=*=*=*=*=*=*=*=*
+	immediate = {
+		play_music_cue = "mx_cue_succession"
+	}
+	option = {
+		name = absolute_lifetime_lock_removal.1.option.w1
+		trigger = {
+			scope:scope_set_age = {
+				OR = {
+					has_character_flag = used_lifetime_invasion
+				}
+			}
+		}
+		scope:scope_set_age = {
+			remove_character_flag = used_lifetime_invasion
+		}
+		trigger_event = absolute_lifetime_lock_removal.1
+	}
+	option = {
+		name = absolute_lifetime_lock_removal.1.option.w2
+		trigger = {
+			scope:scope_set_age = {
+				OR = {
+					has_character_flag = used_lifetime_subjugation
+				}
+			}
+		}
+
+		scope:scope_set_age = {
+			remove_character_flag = used_lifetime_subjugation
+		}
+
+		trigger_event = absolute_lifetime_lock_removal.1
+	}
+	option = {
+		name = absolute_lifetime_lock_removal.1.option.w3
+		trigger = {
+			scope:scope_set_age = {
+				OR = {
+					has_character_flag = declared_major_religious_war_flag
+				}
+			}
+		}
+
+		scope:scope_set_age = {
+			remove_character_flag = declared_major_religious_war_flag
+		}
+
+		trigger_event = absolute_lifetime_lock_removal.1
+	}
+	option = {
+		name = absolute_lifetime_lock_removal.1.option.f
+		trigger = {
+			scope:scope_set_age = {
+				has_character_flag = has_created_a_faith
+			}
+		}
+
+		scope:scope_set_age = {
+			remove_character_flag = has_created_a_faith
+		}
+
+		trigger_event = absolute_lifetime_lock_removal.1
+	}
+	#*=*=*=*=*=*=*=*=*=*
+	option = {
+		name = absolute_lifetime_lock_removal.1.option.c
+		trigger = {
+			scope:scope_set_age = {
+				has_character_flag = converted_culture_this_lifetime
+			}
+		}
+
+		scope:scope_set_age = {
+			remove_character_flag = "converted_culture_this_lifetime"
+		}
+
+		trigger_event = absolute_lifetime_lock_removal.1
+	}
+	#*=*=*=*=*=*=*=*=*=*
+	option = {
+		name = absolute_lifetime_lock_removal.1.option.p
+		trigger = {
+			scope:scope_set_age = {
+				has_character_flag = has_refunded_perks
+			}
+		}
+
+		scope:scope_set_age = {
+			remove_character_flag = "has_refunded_perks"
+			remove_character_flag = "had_stewardship_domain_special_1001_this_lifetime"
+			remove_character_flag = "had_stewardship_domain_special_1101_this_lifetime"
+			remove_character_flag = "had_stewardship_domain_special_1301_this_lifetime"
+			remove_character_flag = "had_stewardship_domain_special_1401_this_lifetime"
+			remove_character_flag = "had_stewardship_domain_special_1500_this_lifetime"
+			remove_character_flag = "had_stewardship_domain_special_3010_this_lifetime"
+			remove_character_flag = "had_stewardship_domain_special_8001_this_lifetime"
+			remove_character_flag = "had_stewardship_duty_special_1201_this_lifetime"
+			remove_character_flag = "had_stewardship_duty_special_2000_this_lifetime"
+			remove_character_flag = "had_intrigue_dread_1101_this_lifetime"
+			remove_character_flag = "completed_event_intrigue_dread_4001"
+			remove_character_flag = "had_intrigue_scheming_special_1001_this_lifetime"
+			remove_character_flag = "had_intrigue_scheming_special_1301_this_lifetime"
+			remove_character_flag = "had_intrigue_temptation_special_1000_this_lifetime"
+			remove_character_flag = "had_learning_medicine_special_1001_this_lifetime"
+			remove_character_flag = "had_learning_scholarship_special_2001_this_lifetime"
+			remove_character_flag = "had_learning_theology_special_1001_this_lifetime"
+			remove_character_flag = "had_diplomacy_family_special_2200_this_lifetime"
+			remove_character_flag = "had_diplomacy_foreign_special_1017_this_lifetime"
+			remove_character_flag = "had_diplomacy_majesty_special_1010_this_lifetime"
+		}
+
+		trigger_event = absolute_lifetime_lock_removal.1
+	}
+	#*=*=*=*=*=*=*=*=*=*
+	option = {
+		name = absolute_lifetime_lock_removal.1.option.v
+		trigger = {
+			scope:scope_set_age = {
+				is_lifetime_vassal_lock_removal_needed = yes
+			}
+		}
+
+		scope:scope_set_age = {
+			if = {
+				limit = {
+					exists = liege
+					is_ruler = yes
+					vassal_contract_has_modifiable_obligations = yes
+				}
+				if = {
+					limit = {
+						vassal_contract_is_blocked_from_modification = yes
+					}
+					set_vassal_contract_modification_blocked = no
+				}
+			}
+			every_vassal = {
+				limit = {
+					vassal_contract_has_modifiable_obligations = yes
+					vassal_contract_is_blocked_from_modification = yes
+				}
+				if = {
+					limit = {
+						exists = liege
+						is_ruler = yes
+						vassal_contract_has_modifiable_obligations = yes
+					}
+					set_vassal_contract_modification_blocked = no
+				}
+			}
+		}
+
+		trigger_event = absolute_lifetime_lock_removal.1
+	}
+	option = {
+		name = absolute_lifetime_lock_removal.1.option.d
+	}
+}

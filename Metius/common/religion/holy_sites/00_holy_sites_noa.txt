@@ -1,0 +1,45 @@
+﻿#NOA
+soroca = {
+	county = c_soroca
+	barony = b_soroca
+	
+	character_modifier = {
+		name = noa_soroca_name_effect
+		prowess_per_piety_level = 2
+		max_combat_roll = 3
+		defender_advantage = 5
+	}
+}
+balti = {
+	county = c_soroca
+	barony = b_balti
+	
+	character_modifier = {
+		name = noa_balti_name_effect
+		martial_per_piety_level = 2
+		knight_effectiveness_mult = 0.3
+		health = 0.2
+	}
+}
+orhei = {
+	county = c_orhei
+	barony = b_orhei
+	
+	character_modifier = {
+		name = noa_orhei_name_effect
+		learning_per_piety_level = 2
+		monthly_piety_gain_mult = 0.03
+		fertility = 0.10
+	}
+}
+tuzara = {
+	county = c_orhei
+	barony = b_tuzara
+	
+	character_modifier = {
+		name = noa_tuzara_name_effect
+		diplomacy_per_piety_level = 2
+		stewardship_per_piety_level = 1
+		build_speed = -0.1
+	}
+}

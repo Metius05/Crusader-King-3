@@ -1,0 +1,69 @@
+#Soroca
+5021 = {	
+	# Misc
+	culture = roman
+	religion = noa_pagan
+	#terrain = farmlands
+	
+	holding = castle_holding
+	
+	867.1.1 = {
+		special_building_slot = soroca_01
+	}	
+	# History
+	883.1.1 = { religion = noa_pagan }
+	900.1.1 = {
+		special_building = soroca_01
+	}
+}
+#Balti
+5022 = {	
+	# Misc
+	culture = roman
+	religion = noa_pagan
+	
+	holding = city_holding
+	
+	867.1.1 = {
+		special_building_slot = balti_01
+	}	
+	# History
+	883.1.1 = { religion = noa_pagan }
+	900.1.1 = {
+		special_building = balti_01
+	}
+}
+#Orhei
+5019 = {	
+	# Misc
+	culture = roman
+	religion = noa_pagan
+	
+	holding = church_holding
+	
+	867.1.1 = {
+		special_building_slot = orhei_01
+	}	
+	# History
+	883.1.1 = { religion = noa_pagan }
+	900.1.1 = {
+		special_building = orhei_01
+	}
+}
+#Tuzara
+5020 = {	
+	# Misc
+	culture = roman
+	religion = noa_pagan
+	
+	holding = city_holding #tribal_holding
+	
+	867.1.1 = {
+		special_building_slot = tuzara_01
+	}	
+	# History
+	883.1.1 = { religion = noa_pagan }
+	900.1.1 = {
+		special_building = tuzara_01
+	}
+}

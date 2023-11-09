@@ -1,0 +1,232 @@
+# Events of Army Spawner by Risiamu
+namespace=absolute_pet
+absolute_pet.0001={
+	type=character_event
+	title = "Army Spawner"
+	desc = "Spawn a series of army."
+	theme = realm
+	left_portrait = {
+		character = scope:scope_set_age
+		animation = personality_honorable
+	}
+	immediate = {
+		play_music_cue = "mx_cue_succession"
+	}
+	option={
+		name = "Spawn levies"
+		spawn_army= {
+			uses_supply = no
+			inheritable = yes
+			name = event_levies_troop
+			location = capital_province
+			levies = 2000
+		}
+	}
+	
+	option={
+		name= "Spawn armored horsemen"
+		spawn_army= {
+			uses_supply = no
+			inheritable = yes
+			name = event_armored_horsemen_troop
+			location = capital_province
+			levies=0
+			men_at_arms={
+				type=armored_horsemen
+				men=2000
+			}
+		}
+	}
+
+	option={
+		name="Spawn light footmen"
+		spawn_army= {
+			uses_supply = no
+			inheritable = yes
+			name = event_light_footmen_troop
+			location = capital_province
+			levies=0
+			men_at_arms={
+				type=light_footmen
+				men=2000
+			}
+		}
+	}
+
+	option={
+		name="Spawn bowmen"
+		spawn_army= {
+			uses_supply = no
+			inheritable = yes
+			name = event_bowmen_troop
+			location = capital_province
+			levies=0
+			men_at_arms={
+				type=bowmen
+				men=2000
+			}
+		}
+	}
+
+	option={
+		name= "Spawn light horsemen"
+		spawn_army= {
+			uses_supply = no
+			inheritable = yes
+			name = event_light_horsemen_troop
+			location = capital_province
+			levies=0
+			men_at_arms={
+				type=light_horsemen
+				men=2000
+			}
+		}
+	}
+
+	option={
+		name="Spawn pikemen"
+		spawn_army= {
+			uses_supply = no
+			inheritable = yes
+			name = event_pikemen_unit_troop
+			location = capital_province
+			levies=0
+			men_at_arms={
+				type=pikemen_unit
+				men=2000
+			}
+		}
+	}
+
+	option={
+		name="Spawn armored footmen"
+		spawn_army= {
+			uses_supply = no
+			inheritable = yes
+			name = event_armored_footmen_troop
+			location = capital_province
+			levies=0
+			men_at_arms={
+				type=armored_footmen
+				men=2000
+			}
+		}
+	}
+
+	option={
+		name="Spawn crossbowmen"
+		spawn_army= {
+			uses_supply = no
+			inheritable = yes
+			name = event_crossbowmen_troop
+			location = capital_province
+			levies=0
+			men_at_arms={
+				type=crossbowmen
+				men=2000
+			}
+		}
+	}
+
+	option={
+		name="Spawn onager"
+		spawn_army= {
+			uses_supply = no
+			inheritable = yes
+			name = event_onager_troop
+			location = capital_province
+			levies=0
+			men_at_arms={
+				type=onager
+				men=200
+			}
+		}
+	}
+
+	option={
+		name="Spawn mangonel"
+		spawn_army= {
+			uses_supply = no
+			inheritable = yes
+			name = event_mangonel_troop
+			location = capital_province
+			levies=0
+			men_at_arms={
+				type=mangonel
+				men=200
+			}
+		}
+	}
+
+	option={
+		name="Spawn trebuchet"
+		spawn_army= {
+			uses_supply = no
+			inheritable = yes
+			name = event_trebuchet_troop
+			location = capital_province
+			levies=0
+			men_at_arms={
+				type=trebuchet
+				men=200
+			}
+		}
+	}
+
+	option={
+		name="Spawn bombard"
+		spawn_army= {
+			uses_supply = no
+			inheritable = yes
+			name = event_bombard_troop
+			location = capital_province
+			levies=0
+			men_at_arms={
+				type=bombard
+				men=200
+			}
+		}
+	}
+}
+namespace=absolute_guard
+absolute_guard.0001={
+	type= character_event
+	title = absolute_guard
+	desc = spawn_guard_trigger_desc
+	theme = realm
+	left_portrait = {
+		character = scope:scope_set_age
+		animation = personality_honorable
+	}
+	immediate = {
+		play_music_cue = "mx_cue_succession"
+	}
+	option={
+		name= absolute_samurai
+		spawn_army= {
+			uses_supply = no
+			inheritable = yes
+			name = absolute_samurai
+			location = capital_province
+			levies=0
+			men_at_arms={
+				type= absolute_samurai
+				men=620
+			}
+		}
+	}
+	option={
+		name= absolute_guard
+		spawn_army= {
+			uses_supply = no
+			inheritable = yes
+			name = absolute_guard
+			location = capital_province
+			levies=0
+			men_at_arms={
+				type= absolute_guard
+				men=100
+			}
+		}
+	}
+}

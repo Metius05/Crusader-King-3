@@ -1,0 +1,30 @@
+﻿80801600 = {
+	name = "Dragon"
+	dynasty = 80801622
+	religion = noa_pagan
+	culture = roman
+	
+	learning = 3
+	diplomacy = 3
+	intrigue = 3
+	martial = 17
+	stewardship = 3
+	prowess = 15
+	
+	trait = wrathful
+	trait = gluttonous
+	trait = zealous
+		
+	trait = dhww
+	trait = education_martial_4
+	trait = physique_good_3
+	trait = one-eyed
+	trait = strong
+	trait = scarred
+	trait = athletic
+	
+	833.1.1 = {
+		birth = yes
+	}
+	dna = dragon_dna
+}

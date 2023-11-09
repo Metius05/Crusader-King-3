@@ -1,0 +1,19 @@
+﻿l_russian:
+noa_pagan:0 "Ной"
+noa_pagan_adj:0 "Нойск"
+noa_pagan_adherent:0 "Нойсиц"
+noa_pagan_adherent_plural:0 "фанатики Ноя"
+
+noa_religion:0 "Ноя"
+noa_religion_adj:0 "Нойск"
+noa_religion_desc:0 "Metius - БОГ - Адам - человек - порождения пустоты - служите же ему о рабы этого благородного царства жизни!"
+
+
+holy_site_soroca_name:0 "Сорока"
+holy_site_soroca_effect_name:0 "От [Concept( 'holy_site', 'святыни' )|E] #weak  ($holy_site_soroca_name$)#!"
+holy_site_balti_name:0 "Бельцы"
+holy_site_balti_effect_name:0 "От [Concept( 'holy_site', 'святыни' )|E] #weak  ($holy_site_balti_name$)#!"
+holy_site_orhei_name:0 "Орхей"
+holy_site_orhei_effect_name:0 "От [Concept( 'holy_site', 'святыни' )|E] #weak  ($holy_site_orhei_name$)#!"
+holy_site_tuzara_name:0 "Тузара"
+holy_site_tuzara_effect_name:0 "От [Concept( 'holy_site', 'святыни' )|E] #weak  ($holy_site_tuzara_name$)#!"

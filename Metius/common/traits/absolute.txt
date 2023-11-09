@@ -1,0 +1,50 @@
+﻿absolute = {
+	index = 1622
+	#personality = yes
+	can_have_children = yes
+
+	immortal = yes
+	
+	genetic = no
+	physical = yes
+	good = yes
+	
+	birth = 0						
+	random_creation = 0	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_absolute
+			}
+			desc = trait_absolute_desc
+		}
+	}
+}
+dhww = {
+	index = 1620
+	#personality = yes
+	can_have_children = yes
+
+	immortal = yes
+	
+	genetic = no
+	physical = yes
+	good = yes
+	
+	birth = 0						
+	random_creation = 0	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_dhww
+			}
+			desc = trait_dhww_desc
+		}
+	}
+}

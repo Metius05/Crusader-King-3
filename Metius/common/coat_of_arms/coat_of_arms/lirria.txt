@@ -1,0 +1,10 @@
+k_lirria = {	
+	pattern = "pattern_shield_02.dds"
+	color1 = "black"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_three_jewels.dds" #ce_triskel
+			color1 = "yellow"
+			color2 = "black"
+	}
+}

@@ -1,0 +1,71 @@
+﻿awakening = {
+	icon = awakening
+	#personality = yes		#Let's show it as big trait
+	#Stats
+	learning = 100
+	diplomacy = -100
+	martial = 50
+	stewardship = 50
+	intrigue = 70
+	prowess = 45
+	advantage = 85
+	siege_phase_time = -10
+	siege_morale_loss = 30
+	movement_speed = 10
+	monthly_lifestyle_xp_gain_mult = 0.6
+	naval_movement_speed_mult = 2.5
+	dread_baseline_add = 200
+	dread_loss_mult = -10
+	#monthly_dread = 100
+	monthly_prestige = -30
+	#monthly_dynasty_prestige = 30
+	#monthly_piety = 1000
+	#monthly_income = 1000
+	attraction_opinion = 12.5
+	no_prowess_loss_from_age = yes
+	health = 100
+	negate_health_penalty_add = 100
+	#fertility = 500
+	#years_of_fertility = 100
+	scheme_power = 1000
+	scheme_resistance = 1000
+	scheme_secrecy = 1000
+	scheme_success_chance = 1000
+	stress_gain_mult = -6
+	vassal_limit = 80
+	domain_limit = 40
+	monthly_county_control_change_add_even_if_baron = 75
+	build_speed = -2
+	ignore_negative_culture_opinion = yes
+	min_combat_roll = 27
+	max_combat_roll = 47
+	farmlands_advantage = 81
+	plains_advantage = 81
+	steppe_advantage = 81
+	hills_advantage = 81
+	mountains_advantage = 81
+	wetlands_advantage = 81
+	forest_advantage = 81
+	taiga_advantage = 81
+	drylands_advantage = 81
+	desert_advantage = 81
+	desert_mountains_advantage = 81
+	oasis_advantage = 81
+	jungle_advantage = 81	
+#	life_expectancy = 100
+	
+	birth = 0							#This trait can not be obtained by character children
+	random_creation = 0			#This trait can not be given to generated (scripts, events) characters
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_awakening_desc
+			}
+			desc = trait_awakening_desc
+		}
+	}
+}

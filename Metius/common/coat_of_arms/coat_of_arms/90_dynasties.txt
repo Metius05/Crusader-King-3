@@ -1,0 +1,22 @@
+80801622 = { # Libra
+	pattern = "pattern_ttt.dds"	
+	color1 = "black"	
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_cross_asturias.dds"
+		color1 = "yellow"
+		color2 = "white"
+		color3 = "red"
+		instance = { position = { 0.17 0.17 } scale = { 0.32 0.32 }  }
+		instance = { position = { 0.5 0.17 } scale = { 0.32 0.32 }  }
+		instance = { position = { 0.83 0.17 } scale = { 0.32 0.32 }  }
+		instance = { position = { 0.17 0.55 } scale = { 0.32 0.32 }  }
+		instance = { position = { 0.83 0.55 } scale = { 0.32 0.32 }  }
+		instance = { position = { 0.5 0.81 } scale = { 0.32 0.32 }  }		
+	}
+	colored_emblem = {
+		texture = "ce_crescent_knot.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }		
+	}	
+}

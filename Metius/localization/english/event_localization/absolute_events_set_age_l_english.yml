@@ -1,0 +1,11 @@
+﻿l_english:
+absolute_lifetime_lock_removal.1.t:0 "What Once-in-a-Lifetime Lockout do I want to reset?"
+absolute_lifetime_lock_removal.1.desc:0 "Being immortal doesn't mean I am limited to doing these things once in my forever lifetime..."
+absolute_lifetime_lock_removal.1.option.w1:0 "Kingdom invasion."
+absolute_lifetime_lock_removal.1.option.w2:0 "Kingdom subjugation."
+absolute_lifetime_lock_removal.1.option.w3:0 "Kingdom holy war."
+absolute_lifetime_lock_removal.1.option.f:0 "Create a new faith."
+absolute_lifetime_lock_removal.1.option.c:0 "Convert to another culture."
+absolute_lifetime_lock_removal.1.option.p:0 "Reset lifestyle perks."
+absolute_lifetime_lock_removal.1.option.v:0 "Modify vassal contracts."
+absolute_lifetime_lock_removal.1.option.d:0 "Done with once-in-a-lifetime lockout resets."

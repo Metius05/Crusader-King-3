@@ -1,0 +1,90 @@
+﻿absolute_build = {
+	icon = absolute_build
+	#monthly_lifestyle_xp_gain_mult = -10000
+	monthly_learning_lifestyle_xp_gain_mult = -10000
+	monthly_stewardship_lifestyle_xp_gain_mult = -10000
+	monthly_diplomacy_lifestyle_xp_gain_mult = -10000
+	monthly_intrigue_lifestyle_xp_gain_mult = -10000
+	monthly_martial_lifestyle_xp_gain_mult = -10000
+	}
+dragon = {
+	icon = dragon
+	health = -0.2
+	negate_health_penalty_add = -0.2
+	dread_baseline_add = 40
+	movement_speed = 0.3
+	prowess = 4
+	siege_phase_time = -0.1
+	
+}
+blood_katana = {
+	icon = blood_katana
+	health = 666
+	negate_health_penalty_add = 666
+	no_prowess_loss_from_age = yes
+	prowess = 6
+	stress_gain_mult = 0.3
+	siege_morale_loss = 0.25
+	advantage = 5
+}
+apokrif_book = {
+	icon = apokrif_book
+	learning = 6
+	ignore_negative_culture_opinion = yes
+	farmlands_advantage = 8
+	plains_advantage = 8
+	steppe_advantage = 8
+	hills_advantage = 8
+	mountains_advantage = 8
+	wetlands_advantage = 8
+	forest_advantage = 8
+	taiga_advantage = 8
+	drylands_advantage = 8
+	desert_advantage = 8
+	desert_mountains_advantage = 8
+	oasis_advantage = 8
+	jungle_advantage = 8
+	build_speed = -0.04
+	vassal_limit = 3
+	domain_limit = 1
+}
+2_cube = {
+	icon = 2_cube
+	dread_baseline_add = 60
+	movement_speed = 0.35
+	siege_phase_time = -0.12
+	health = 500
+	negate_health_penalty_add = 500
+	no_prowess_loss_from_age = yes
+	prowess = 7
+	stress_gain_mult = 0.15
+	siege_morale_loss = 0.3
+	advantage = 15
+	learning = 7
+	ignore_negative_culture_opinion = yes
+	build_speed = -0.06
+	vassal_limit = 4
+	domain_limit = 2
+}
+
+#--------------------------------------------------------
+
+casa_nostra_01 = {
+	icon = county_modifier_control_positive
+	county_opinion_add = 1
+	#levy_size = 0.01
+	general_opinion = 1
+	courtier_opinion = 1
+	monthly_county_control_change_add = 0.1
+	monthly_piety = -0.2
+	monthly_prestige = 0.1
+	stacking = yes
+}
+casa_nostra_02 = {
+	icon = prestige_positive
+	monthly_piety = 0.1
+	monthly_prestige = -0.2
+	monthly_dynasty_prestige_mult = 0.01
+	life_expectancy = 1
+	stacking = yes
+}
